@@ -1,0 +1,2 @@
+https://www.delftstack.com/zh-tw/howto/cpp/read-int-from-file-cpp/
+https://www.delftstack.com/zh-tw/howto/cpp/bubble-sort-in-cpp/

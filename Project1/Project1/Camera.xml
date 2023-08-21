@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CameraI>
+    <DevID>5</DevID>
+    <IpAddress>178.26.85.83</IpAddress>
+    <SubnetMask>123.45.67.89</SubnetMask>
+    <ExposureAuto>false</ExposureAuto>
+    <ExposureTime>200</ExposureTime>
+    <TriggerMode>false</TriggerMode>
+</CameraI>
+
+<CameraII>
+    <DevID>5</DevID>
+    <IpAddress>178.26.85.83</IpAddress>
+    <SubnetMask>123.45.67.89</SubnetMask>
+    <ExposureAuto>false</ExposureAuto>
+    <ExposureTime>200</ExposureTime>
+    <TriggerMode>false</TriggerMode>
+</CameraII>
+
+<CameraII>
+    <DevID>587</DevID>
+    <IpAddress>178.26.85.83</IpAddress>
+    <SubnetMask>123.45.67.89</SubnetMask>
+    <ExposureAuto>false</ExposureAuto>
+    <ExposureTime>200</ExposureTime>
+    <TriggerMode>false</TriggerMode>
+</CameraII>
+
+
+<CameraIII>
+    <DevID>5</DevID>
+    <IpAddress>178.26.85.83</IpAddress>
+    <SubnetMask>123.45.67.89</SubnetMask>
+    <ExposureAuto>false</ExposureAuto>
+    <ExposureTime>200</ExposureTime>
+    <TriggerMode>false</TriggerMode>
+</CameraIII>
+
+<CameraIIII>
+    <DevID>5
+    	<DP>123</DP>
+    </DevID>
+    <IpAddress pass="1">178.26.85.83</IpAddress>
+    <SubnetMask>123.45.67.89</SubnetMask>
+    <ExposureAuto>false</ExposureAuto>
+    <ExposureTime>200</ExposureTime>
+    <TriggerMode>false</TriggerMode>
+</CameraIIII>

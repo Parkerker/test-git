@@ -1,0 +1,13 @@
+https://mtr04-note.coderbridge.io/2020/07/03/-%E7%AD%86%E8%A8%98--api-%E5%9F%BA%E7%A4%8E%E3%80%81json%E3%80%81curl-%E6%8C%87%E4%BB%A4/
+https://www.ruanyifeng.com/blog/2019/09/curl-reference.html
+https://www.youtube.com/watch?v=cl186ePedMg
+https://gist.github.com/alghanmi/c5d7b761b2c9ab199157
+https://www.youtube.com/watch?v=q_mXVZ6VJs4
+https://www.w3schools.com/xml/plant_catalog.xml
+https://xshadowwolfx.blogspot.com/2012/12/c-libcurl.html
+https://www.65bit.com/docs/example-url-based-xml-data-source/
+https://blog.csdn.net/shuiyixin/article/details/89330529
+https://igouist.github.io/post/2021/05/newbie-2-webapi/
+https://blog.csdn.net/cpp_learner/article/details/122155825
+https://acupun.site/lecture/cpp/#chp18
+

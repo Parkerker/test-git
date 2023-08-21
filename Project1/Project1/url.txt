@@ -1,0 +1,16 @@
+https://terminalroot.com/how-to-parser-xml-with-tinyxml2-cpp/
+https://www.cnblogs.com/hgwang/p/5833638.html
+https://blog.csdn.net/xuanyin235/article/details/81068163?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-81068163-blog-73648942.235%5Ev38%5Epc_relevant_sort_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-81068163-blog-73648942.235%5Ev38%5Epc_relevant_sort_base1&utm_relevant_index=2
+https://www.cnblogs.com/ciyeer/p/9046479.html
+https://github.com/leethomason/tinyxml2
+https://juejin.cn/post/7050857296116580388
+https://linuxhint.com/parse_xml_in_cpp/
+https://veitchkyrie.github.io/2019/07/23/%E5%9F%BA%E4%BA%8EtinyXML%E7%9A%84XML%E6%96%87%E6%9C%AC%E6%93%8D%E4%BD%9C/
+
+
+book：
+https://www.gotop.com.tw/books/download.aspx?bookid=AEL019800
+
+
+TinyXml 操作XML 常用操作：
+https://www.cnblogs.com/cy568searchx/p/3670400.html
