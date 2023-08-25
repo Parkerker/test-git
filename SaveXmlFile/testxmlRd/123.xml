@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Account>
+    <AccountNo Type="A">1</AccountNo>
+    <type>Saving</type>
+    <customer>John Doe</customer>
+    <balance>399.88</balance>
+    <openDate>01/01/2023</openDate>
+</Account>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catalog>
+    <PLANT alias="Part_3">
+        <COMMON>Mayapple</COMMON>
+        <BOTANICAL>Podophyllum peltatum</BOTANICAL>
+        <ZONE>3</ZONE>
+        <LIGHT>Mostly Shady</LIGHT>
+        <PRICE>$2.98</PRICE>
+        <AVAILABILITY>060599</AVAILABILITY>
+    </PLANT>
+</Catalog>
