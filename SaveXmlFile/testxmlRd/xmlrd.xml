@@ -14,6 +14,7 @@
             <customer>Fredy</customer>
             <balance>525</balance>
             <openDate>03/01/2020</openDate>
+	    <bata>testbata</bata>
         </Account>
     </Accounts>
   

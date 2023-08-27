@@ -13,10 +13,18 @@ using namespace tinyxml2;
 
 int main() {
 
+	vector<const char*> Account2 = {" ","0"};
+	if (Account2[0] == NULL)cout << "NULL：" << Account2[0]<<endl;
+	if (Account2[0] == " ")cout << " \"\"：" << Account2[0] << endl;
+	Account2.push_back(NULL);
+	if (Account2[Account2.size()-1] == NULL)cout << "NULL：" << NULL << endl;
+	if (Account2[Account2.size() - 2] == NULL)cout << "NULL=0?：" << NULL << endl;
+	//NULL可以==0 但0不==NULL
+
 	XMLDocument doc;
 	doc.LoadFile("./xmlrd.xml");
 
-	vector<const char*> accou = { "AccountNo", "type", "customer", "balance", "openDate" };
+	vector<const char*> accou = { "AccountNo", "type", "customer", "balance", "openDate","bata"};
 	vector<const char*> Account = {};
 	XMLElement* p_root_element = doc.RootElement();
 		XMLElement* p_Accounts = p_root_element->FirstChildElement("Accounts");
@@ -28,8 +36,8 @@ int main() {
 		//cout << e_attribute << endl;
 		for (int i = 0; i < accou.size(); i++) {
 			XMLElement* e_Accou = p_Account->FirstChildElement(accou[i]);
-			cout <<"\t\t\t"<<accou[i]<<"：" << e_Accou->GetText() << endl;
-			Account.push_back(e_Accou->GetText());
+			if (e_Accou == NULL)Account.push_back(NULL);else cout <<"\t\t\t"<<accou[i]<<"：" << e_Accou->GetText() << endl;
+			if (e_Accou == NULL)continue;else Account.push_back(e_Accou->GetText());
 			if (i == accou.size()-1)cout << endl;
 		}
 		//XMLElement* e_Name = p_Account->FirstChildElement("Name");
@@ -46,14 +54,18 @@ int main() {
 	cout << "enter your name :";
 	cin.getline(name, 10);*/
 	
-	for (int i = 0; i < Account.size(); i++) { cout << "Account：" << Account[i]<<i<<endl; }
+	for (int i = 0; i < Account.size(); i++) {
+		if (Account[i] == NULL)cout << "NULL (-1 ,+1)" << Account[i - 1] << "," << Account[i + 1] << endl;
+		else cout << "Account：" << Account[i]<<" i=>" << i << endl;
+		if(i== Account.size()-1)cout<< Account.size()<<endl;
+	}
 	while (getline(cin, s)) {
 		cout << "s：" << s << endl;
 		if (s == Account[2]) { cout << "customer：" << Account[2] << endl; }
 		if (s == Account[3])cout << "3"<<endl;
 		if (s == Account[4])cout << "4" << endl;
 	}
-
+/*
 	XMLDocument docsave;
 
 	string filename;
@@ -78,7 +90,7 @@ int main() {
 	string aa = "./" + filename + ".xml";
 	//docsave.SaveFile("./1234.xml");// aa.c_str()
 	const char* abc = aa.c_str();
-	docsave.SaveFile(abc);// aa.c_str()
+	docsave.SaveFile(abc);// aa.c_str()*/
 	system("pause");
 	return 0;
 }

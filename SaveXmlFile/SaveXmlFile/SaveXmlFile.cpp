@@ -19,7 +19,7 @@ int main() {
 	//test catalog.xml
 	XMLDocument doc;
 	doc.LoadFile("./catalog.xml");
-
+	//major_rev material name state item_number
 	vector<const char*> elems = { "COMMON", "BOTANICAL", "ZONE", "LIGHT", "PRICE","AVAILABILITY"};
 	vector<const char*> common = {}, botanical = {}, zone = {}, light = {}, price = {}, availability = {};
 	//Attributes
@@ -78,9 +78,9 @@ int main() {
 					XMLDeclaration* declaration = docsave.NewDeclaration();
 					docsave.InsertFirstChild(declaration);
 					//建立與此文件關聯的新元素。元素的記憶體由文件管理。
-					XMLElement* root = docsave.NewElement("Catalog");
+					XMLElement* root = docsave.NewElement("Catalog");//Result
 					docsave.InsertEndChild(root);
-					XMLElement* Plant = root->InsertNewChildElement("PLANT");
+					XMLElement* Plant = root->InsertNewChildElement("PLANT");//Item
 					Plant->SetAttribute("alias", attr[0]);
 					//Plant->SetText("1");
 					XMLElement* COMMON = Plant->InsertNewChildElement("COMMON");
